@@ -4,7 +4,17 @@
 
 Bem-vindo(a)! Este repositório é a plataforma de uma escola náutica **fictícia**, a Academia Náutica Farol. Todos os dados são inventados.
 
-**Prazo:** sexta-feira, **20/11/2026, até 23h59**. Quando terminar, abra a Pull Request e avise a banca por e-mail.
+**Prazo:** sexta-feira, **20/11/2026, até 23h59**.
+
+## Como começar e como entregar
+
+1. Clique em **Use this template → Create a new repository**. Em *Owner*, escolha **a sua conta**; marque **Private**.
+2. No repositório que você criou, vá em **Settings → Collaborators → Add people** e adicione a banca:
+   - [`@luisquesada26`](https://github.com/luisquesada26) (Luis Quesada)
+   - [`@Phlemos2025`](https://github.com/Phlemos2025) (Paulo)
+3. Clone o **seu** repositório, crie uma branch e trabalhe nela. Não faça commit direto na `main`.
+4. Ao terminar, abra uma **Pull Request da sua branch para a `main`** do seu repositório.
+5. Até **20/11, às 23h59**, mande um e-mail para a banca com **o link da PR e o hash do último commit**. Avaliamos o código até esse commit; o que entrar depois não é considerado.
 
 ---
 
@@ -44,7 +54,7 @@ Se quiser ir além (opcional): uma segunda tool, como `proximas_turmas(curso)`, 
 
 ### Tarefa 3 — Pull Request
 
-Entregue tudo numa PR da sua branch para a `main`, com:
+Entregue tudo numa PR da sua branch para a `main` do seu repositório, com:
 
 - o que mudou e por quê;
 - como testar, passo a passo;
