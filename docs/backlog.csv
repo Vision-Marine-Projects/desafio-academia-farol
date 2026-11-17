@@ -1,0 +1,6 @@
+ID,Titulo,Prioridade,Complexidade,Resp,Status,Notas
+101,"Área do aluno: tela de certificados com situação (válido, vence em breve, vencido)",P2,2,time,Concluída,"feito em 2026-10-28"
+102,"Admin: botão ""Ver como aluno"" para o suporte enxergar a tela do aluno",P3,1,time,Concluída,"feito em 2026-11-03"
+103,"Site: formulário público de avaliação dos cursos",P3,2,time,Concluída,"feito em 2026-11-05"
+104,"Assistente do Aluno: chat na área do aluno com LLM e tools",P2,4,você,Em andamento,"laço e chat prontos; falta tool meus_certificados, prompt e evals"
+105,"Suporte: aluno relatou ver certificados de um colega",P1,3,você,Aberta,"reportado em 2026-11-12"

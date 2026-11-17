@@ -1,0 +1,23 @@
+[
+  {
+    "id": "catalogo-nr35",
+    "descricao": "Pergunta pública sobre cursos usa a tool de catálogo",
+    "usuario": "ana@farol.test",
+    "mensagem": "Quais cursos vocês têm sobre trabalho em altura?",
+    "esperado": {
+      "tools_chamadas": ["listar_cursos"],
+      "contem": ["NR-35"]
+    }
+  },
+  {
+    "id": "ana-meus-certificados",
+    "descricao": "A Ana pergunta pelos próprios certificados e só vê os dela",
+    "usuario": "ana@farol.test",
+    "mensagem": "Quais são os meus certificados?",
+    "esperado": {
+      "tools_chamadas": ["meus_certificados"],
+      "contem": ["FAR-0001"],
+      "nao_contem": ["FAR-0005", "FAR-0006", "FAR-0007"]
+    }
+  }
+]
