@@ -4,7 +4,7 @@
 
 Bem-vindo(a)! Este repositório é a plataforma de uma escola náutica **fictícia**, a Academia Náutica Farol. Todos os dados são inventados.
 
-**Prazo:** sexta-feira, **20/11/2026, até 23h59**.
+**Prazo:** **72 horas** a partir do e-mail em que você recebeu este desafio.
 
 ## Como começar e como entregar
 
@@ -14,7 +14,7 @@ Bem-vindo(a)! Este repositório é a plataforma de uma escola náutica **fictíc
    - [`@Phlemos2025`](https://github.com/Phlemos2025) (Paulo)
 3. Clone o **seu** repositório, crie uma branch e trabalhe nela. Não faça commit direto na `main`.
 4. Ao terminar, abra uma **Pull Request da sua branch para a `main`** do seu repositório.
-5. Até **20/11, às 23h59**, mande um e-mail para a banca com **o link da PR e o hash do último commit**. Avaliamos o código até esse commit; o que entrar depois não é considerado.
+5. Dentro do prazo, **responda o e-mail em que recebeu o desafio** com **o link da PR e o hash do último commit**. Avaliamos o código até esse commit; o que entrar depois não é considerado.
 
 ---
 
@@ -42,6 +42,8 @@ Para cada correção:
 
 Mudanças no banco vão em uma **migration nova** em `supabase/migrations/`. Não edite migrations que já existem: elas já rodaram em produção.
 
+Para correções no banco (policies, permissões), que o Vitest não alcança, um **roteiro de verificação manual** na PR vale como teste: os passos, com qual usuário, e o resultado antes e depois da correção.
+
 ### Tarefa 2 — Assistente do Aluno
 
 O chat já existe em `/aluno/assistente`, e o laço do agente já está pronto em `src/lib/assistente/`. Ele funciona com Anthropic, OpenAI, Gemini, Ollama ou um modo **simulado** (sem LLM e sem chave). Falta o que importa:
@@ -65,7 +67,7 @@ Atualize também o `docs/backlog.csv` com as tarefas que fez e as que identifico
 
 ### Se o tempo apertar
 
-A prioridade é: Tarefa 1, depois a PR, depois o assistente. Entregar parte e dizer com clareza o que ficou de fora vale mais que entregar tudo pela metade. Esforço estimado: **3 a 4 horas** com as ferramentas de IA que você já usa.
+A prioridade é: Tarefa 1, depois a PR, depois o assistente. Entregar parte e dizer com clareza o que ficou de fora vale mais que entregar tudo pela metade. Esforço estimado: **4 a 6 horas** com as ferramentas de IA que você já usa.
 
 ---
 
@@ -150,6 +152,6 @@ docs/backlog.csv             backlog do time
 - **Nunca** coloque chaves no código ou no repositório: use `.env.local`.
 - Não precisa de front bonito, deploy nem cobertura total de testes.
 - Pode mudar a estrutura, se explicar o motivo na PR.
-- Dúvidas: responda o e-mail do desafio. Toda resposta vai para todos os candidatos.
+- Dúvidas: responda o e-mail em que recebeu o desafio, até 24 horas antes do prazo. Toda resposta vai para todos os candidatos.
 
 Boa sorte!

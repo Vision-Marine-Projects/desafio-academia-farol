@@ -1,6 +1,6 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 
-/** Uma chamada de tool pedida pelo modelo. `args` vem do MODELO: não é confiável. */
+/** Uma chamada de tool pedida pelo modelo. */
 export type ChamadaTool = { id: string; nome: string; args: Record<string, unknown> };
 
 /** Histórico da conversa num formato neutro; cada provedor converte para o seu. */
@@ -23,7 +23,7 @@ export interface Provedor {
   gerar(entrada: { sistema: string; turnos: Turno[]; tools: DefinicaoTool[] }): Promise<RespostaModelo>;
 }
 
-/** O que o servidor sabe sobre quem está conversando. Vem do login, não do modelo. */
+/** Contexto passado para as tools a cada execução. */
 export type ContextoTool = {
   usuario: { id: string; papel: "aluno" | "admin" };
   /** Cliente do Supabase com a sessão do usuário (respeita a RLS). */
